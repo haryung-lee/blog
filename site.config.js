@@ -12,9 +12,13 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `모도코`,
+      href: "https://github.com/SWM-FIRE/modoco-frontend",
     },
+    {
+      name: '테오의 컨퍼런스 홈페이지',
+      href: 'https://github.com/TeoConference/teo-2023-fe',
+    }
   ],
   // blog setting (required)
   blog: {
@@ -51,7 +55,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: "morethanmin/morethan-log",
       "issue-term": "og:title",

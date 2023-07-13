@@ -4,7 +4,7 @@ const CONFIG = {
     name: "halang",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "안녕하세요. 프론트엔드 개발자 하랭입니다.",
+    bio: "프론트엔드 개발자 하랭입니다",
     email: "lhr4884@naver.com",
     linkedin: "",
     github: "haryung-lee",
@@ -16,9 +16,9 @@ const CONFIG = {
       href: "https://github.com/SWM-FIRE/modoco-frontend",
     },
     {
-      name: '테오의 컨퍼런스 홈페이지',
-      href: 'https://github.com/TeoConference/teo-2023-fe',
-    }
+      name: "테오의 컨퍼런스 홈페이지",
+      href: "https://github.com/TeoConference/teo-2023-fe",
+    },
   ],
   // blog setting (required)
   blog: {

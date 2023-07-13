@@ -11,13 +11,13 @@ const ContactCard: React.FC = () => {
   return (
     <>
       <div className="p-1 mb-3 dark:text-white">💬 Contact</div>
-      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
+      <ul className="flex flex-col p-1 bg-white rounded-2xl dark:bg-zinc-700">
         {CONFIG.profile.github && (
           <a
             href={`https://github.com/${CONFIG.profile.github}`}
             rel="noreferrer"
             target="_blank"
-            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
+            className="flex items-center gap-3 p-3 text-gray-500 cursor-pointer hover:underline hover:underline-offset-2 rounded-2xl dark:text-white hover:text-black dark:hover:text-white "
           >
             <AiOutlineGithub className="text-2xl" />
             <div className="text-sm">github</div>
@@ -28,7 +28,7 @@ const ContactCard: React.FC = () => {
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
             rel="noreferrer"
             target="_blank"
-            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="flex items-center gap-3 p-3 text-gray-500 cursor-pointer hover:underline hover:underline-offset-2 rounded-2xl dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiOutlineInstagram className="text-2xl" />
             <div className="text-sm">instagram</div>
@@ -39,9 +39,9 @@ const ContactCard: React.FC = () => {
             href={`mailto:${CONFIG.profile.email}`}
             rel="noreferrer"
             target="_blank"
-            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="flex items-center gap-3 p-3 overflow-hidden text-gray-500 cursor-pointer hover:underline hover:underline-offset-2 rounded-2xl dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiOutlineMail className="text-2xl flex-shrink-0" />
+            <AiOutlineMail className="flex-shrink-0 text-2xl" />
             <div className="text-sm">email</div>
           </a>
         )}
@@ -50,9 +50,9 @@ const ContactCard: React.FC = () => {
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
             rel="noreferrer"
             target="_blank"
-            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="flex items-center gap-3 p-3 overflow-hidden text-gray-500 cursor-pointer hover:bg-gray-100 dark:hover:bg-zinc-800 rounded-2xl dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiFillLinkedin className="text-2xl flex-shrink-0" />
+            <AiFillLinkedin className="flex-shrink-0 text-2xl" />
             <div className="text-sm">linkedin</div>
           </a>
         )}

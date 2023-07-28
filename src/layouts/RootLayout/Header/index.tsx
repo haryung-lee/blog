@@ -52,6 +52,9 @@ const StyledWrapper = styled.div`
         padding-right: 6rem;
       }
     }
+    @media (min-width: 768px) {
+      height: 4rem;
+    }
     .nav {
       display: flex;
       gap: 0.75rem;

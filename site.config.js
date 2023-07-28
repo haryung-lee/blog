@@ -55,9 +55,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "haryung-lee/blog",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },

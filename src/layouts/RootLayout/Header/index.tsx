@@ -31,7 +31,9 @@ const StyledWrapper = styled.div`
   margin-bottom: 0.5rem;
   background-color: ${({ theme }) => theme.colors.gray2};
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0.95;
   @media (min-width: 768px) {
     margin-bottom: 1.5rem;
   }
@@ -46,6 +48,7 @@ const StyledWrapper = styled.div`
     max-width: 1120px;
     height: 3rem;
     margin: 0 auto;
+    font-weight: 700;
     &[data-full-width="true"] {
       @media (min-width: 768px) {
         padding-left: 6rem;

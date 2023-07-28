@@ -54,7 +54,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "haryung-lee/blog",
+      repo: "haryung-lee/blog-comments",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },

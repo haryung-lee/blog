@@ -12,12 +12,16 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `모도코`,
+      name: "모도코",
       href: "https://github.com/SWM-FIRE/modoco-frontend",
     },
     {
       name: "테오의 컨퍼런스 홈페이지",
       href: "https://github.com/TeoConference/teo-2023-fe",
+    },
+    {
+      name: "모여모여",
+      href: "https://github.com/Nexters/moyeo-moyeo-FE",
     },
   ],
   // blog setting (required)
